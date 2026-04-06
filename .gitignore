@@ -1,0 +1,43 @@
+# ── Java Compiled Output ───────────────────────────────────────────
+*.class
+*.jar
+*.war
+*.ear
+
+# ── Maven Build Output ─────────────────────────────────────────────
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# ── IDE Files ──────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.classpath
+.project
+.settings/
+*.suo
+*.user
+
+# ── Environment and Secrets — NEVER commit these ───────────────────
+.env
+.env.local
+application-local.properties
+application-prod.properties
+*.pem
+*.key
+*.p12
+*.jks
+
+# ── OS Generated Files ─────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs ───────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Node (if ever added) ───────────────────────────────────────────
+node_modules/
