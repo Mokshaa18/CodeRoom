@@ -66,9 +66,6 @@ If your internet drops mid-session, your changes are saved locally and automatic
 4. They open the link — no signup, no download
 5. Start coding together
 
----
-
-## How it works 
 
 - Real-time collaborative code editor (Monaco Editor — same editor as VS Code)
 - Upload local code files into a shared session and download after editing
